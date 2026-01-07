@@ -28,10 +28,13 @@ not released yet** and will be made available later.
 ---
 
 ## 📁 Repository Structure
+
+
 LaghuTrans/
-├── app.py # Gradio web interface for translation
-├── inference_cli.py # Command-line inference script
-├── inference_core.py # Core inference pipeline
+├── app.py                     # Gradio web interface for translation
+├── inference_cli.py           # Command-line inference script
+├── inference_core.py          # Core inference pipeline
 ├── inference_core_original.py # Reference / baseline inference logic
-├── requirements.txt # Python dependencies
+├── requirements.txt           # Python dependencies
 └── README.md
+
