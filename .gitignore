@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+env/
+venv/
+MT_env/
+ENV/
+
+# Model files (DON'T PUSH THESE - they're large)
+*.pt
+*.pth
+*.bin
+*.onnx
+models/
+checkpoints/
+*.pkl
+
+# Data files
+data/
+datasets/
+corpus/
+*.csv
+*.tsv
+
+# Config with paths
+config.json
+config.yaml
+*.ini
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Gradio
+gradio_cached_examples/
+flagged/
+
+# Logs
+*.log
+logs/

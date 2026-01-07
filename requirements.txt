@@ -1,0 +1,12 @@
+# Core dependencies
+gradio>=4.0.0
+torch>=2.0.0
+numpy>=1.24.0
+
+# Translation
+OpenNMT-py>=3.0.0
+subword-nmt>=0.3.8
+
+# Optional: For faster inference (uncomment if needed)
+# ctranslate2>=3.20.0
+# sentencepiece>=0.1.99
