@@ -4,8 +4,8 @@ LaghuTrans is a lightweight **English → Hindi Neural Machine Translation (NMT)
 system with a focus on **Agriculture and Judicial domains**.
 
 This repository currently provides **only the inference and demo code**.
-The **trained model weights and full training pipeline are intentionally
-not released yet** and will be made available later.
+The trained model weights and full training pipeline are intentionally not
+released yet and will be made available later.
 
 ---
 
@@ -29,7 +29,6 @@ not released yet** and will be made available later.
 
 ## 📁 Repository Structure
 
-
 LaghuTrans/
 ├── app.py                     # Gradio web interface for translation
 ├── inference_cli.py           # Command-line inference script
@@ -37,4 +36,5 @@ LaghuTrans/
 ├── inference_core_original.py # Reference / baseline inference logic
 ├── requirements.txt           # Python dependencies
 └── README.md
+
 
